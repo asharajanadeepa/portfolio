@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="stylesheet.css" />
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
   <header class="header">
     <a href="#" class="logo">Portfolio</a>
+    <div class="hamburger">
+      <i class="bx bx-menu"></i>
+    </div>
     <nav class="navbar">
       <a href="#home" style="--i:1" class="active">Home</a>
       <a href="#about" style="--i:2">About</a>
       <a href="#services" style="--i:3">Skill</a>
-      <a href="#skills" style="--i:4">Portfolio</a>
+      <a href="#portfolio" style="--i:4">Portfolio</a>
       <a href="#contact" style="--i:5">Contact</a>
     </nav>
   </header>
 
-  <section class="home">
+  <section class="home" id="home">
     <div class="home-content">
       <h3>Hello, It's Me</h3>
       <h1>Ashara Janadeepa</h1>
       <h3>And I'm a <span class="text"></span></h3>
       <p>
         Undergraduate student at Sri Lanka Institute of Information Technology (SLIIT) with great enthusiasm in information technology.
-        <br />I'm experienced in building frontend and backend systems with working databases and ensuring application stability and scalability.
+        <br>I'm experienced in building frontend and backend systems with working databases and ensuring application stability and scalability.
       </p>
       <div class="home-sci">
         <a href="https://web.facebook.com/ashara.janadeepa" style="--i:7" target="_blank"><i class="bx bxl-facebook"></i></a>
@@ -36,20 +39,20 @@
         <a href="https://github.com/asharajanadeepa" style="--i:10" target="_blank"><i class="bx bxl-github"></i></a>
       </div>
       <a href="asharajanadeepaCV.pdf" class="btn-box" download>Download CV</a>
-      <a href="#" class="btn-box">More About Me</a>
+      <a href="#about" class="btn-box">More About Me</a>
     </div>
-    <span class="home-imhHover"></span>
+    <span class="home-imgHover"></span>
   </section>
 
   <section class="about" id="about">
     <div class="about-img">
-      <img src="ok.png" alt="Profile Image" />
+      <img src="ok.png" alt="Profile Image">
     </div>
     <div class="about-text">
       <h2>About<span>Me</span></h2>
       <h4>Full Stack Developer</h4>
       <p>Undergraduate student at Sri Lanka Institute of Information Technology (SLIIT) with great enthusiasm in information technology. To be a Responsible and Influential professional in Industrial sector and to apply my Academic knowledge, Interpersonal and analytical skills in a challenging position of a reputable organization, Where I could contribute towards its sustainable growth and development, while continuing with professional advancement to meet my career goals and organization challenges. Please feel free to explore my portfolios for a more comprehensive understanding of my work.</p>
-      <a href="#" class="btn-box">More About Me</a>
+      <a href="#portfolio" class="btn-box">More About Me</a>
     </div>
   </section>
 
@@ -189,14 +192,11 @@
     </div>
   </section>
 
-
   <section id="portfolio">
     <div class="main-text">
       <h2>Latest <span>Projects</span></h2>
     </div>
-  
     <div class="portfolio-content">
-      <!-- Project 1 -->
       <div class="project-card">
         <img src="p1Tickit.jpeg" alt="TickIt App Screenshot">
         <div class="layer">
@@ -207,8 +207,6 @@
           </a>
         </div>
       </div>
-  
-      <!-- Project 2 -->
       <div class="project-card">
         <img src="Home.jpg" alt="MERN Project Screenshot">
         <div class="layer">
@@ -220,8 +218,6 @@
           </a>
         </div>
       </div>
-  
-      <!-- Project 3 -->
       <div class="project-card">
         <img src="p3.png" alt="Movie Management Screenshot">
         <div class="layer">
@@ -236,52 +232,38 @@
       </div>
     </div>
   </section>
-  
 
   <section class="contact" id="contact">
     <div class="contact-text">
-        <h2>Contact<span>Me</span></h2>
-        <h4>Let's Work Together</h4>
-        <P>Undergraduate student at Sri Lanka Institute of Information Technology (SLIIT) with great enthusiasm in information technology. To be a Responsible and Influential professional in Industrial sector and to apply my Academic knowledge, Interpersonal and analytical skills in a challenging position of a reputable organization, Where I could contribute towards its sustainable growth and development, while continuing with professional advancement to meet my career goals and organization challenges Please feel free to explore my portfolios for a more comprehensive understanding of my work</P>
-
-        <div class="contact-list">
-            <li><i class='bx bx5-send'></i>janadeepaa@gmail.com</li>
-            <li><i class='bx bx5-phone'></i>0771842446</li>
-        </div>
-        <div class="contact-icons">
-            <a href="https://web.facebook.com/ashara.janadeepa" style="--i:7" target="_blank"><i class="bx bxl-facebook"></i></a>
-            <a href="https://www.instagram.com/ashara_0_3/" style="--i:8" target="_blank"><i class="bx bxl-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/ashara-janadeepa-155a21338/" style="--i:9" target="_blank"><i class="bx bxl-linkedin"></i></a>
-            <a href="https://github.com/asharajanadeepa" style="--i:10" target="_blank"><i class="bx bxl-github"></i></a>
-        </div>
+      <h2>Contact<span>Me</span></h2>
+      <h4>Let's Work Together</h4>
+      <p>Undergraduate student at Sri Lanka Institute of Information Technology (SLIIT) with great enthusiasm in information technology. To be a Responsible and Influential professional in Industrial sector and to apply my Academic knowledge, Interpersonal and analytical skills in a challenging position of a reputable organization, Where I could contribute towards its sustainable growth and development, while continuing with professional advancement toicula. Please feel free to explore my portfolios for a more comprehensive understanding of my work.</p>
+      <div class="contact-list">
+        <li><i class='bx bx-send'></i>janadeepaa@gmail.com</li>
+        <li><i class='bx bx-phone'></i>0771842446</li>
+      </div>
+      <div class="contact-icons">
+        <a href="https://web.facebook.com/ashara.janadeepa" style="--i:7" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/ashara_0_3/" style="--i:8" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/ashara-janadeepa-155a21338/" style="--i:9" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/asharajanadeepa" style="--i:10" target="_blank"><i class="bx bxl-github"></i></a>
+      </div>
     </div>
-
     <div class="contact-form">
-        <form action="https://formspree.io/f/xgvyrooq" method="POST">
-            <input type="text" name="name" placeholder="Enter Your Name" required>
-            <input type="email" name="email" placeholder="Enter Your Email" required>
-            <input type="text" name="subject" placeholder="Enter Your Subject">
-            <textarea name="message" placeholder="Enter Your Message" required></textarea>
-
-            <input type="submit" value="Send Message" class="send">
-          </form>
-          
-          
-          
-          
+      <form action="https://formspree.io/f/xgvyrooq" method="POST">
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <input type="email" name="email" placeholder="Enter Your Email" required>
+        <input type="text" name="subject" placeholder="Enter Your Subject">
+        <textarea name="message" placeholder="Enter Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="send">
+      </form>
     </div>
   </section>
+
   <div class="last-text">
     <p>Developed By Ashara Janadeepa 2025</p>
   </div>
   <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
-
-
-
-
-
-
-
 
   <script src="main.js"></script>
 </body>
